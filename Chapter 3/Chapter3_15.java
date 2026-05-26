@@ -5,7 +5,7 @@ public class Chapter3_15{
 			System.out.println("Age is greater than or equal to 65");
 		}
 		else {
-			System.out.println("Age is less than 65)
+			System.out.println("Age is less than 65");
 		}
 		
 		//question B

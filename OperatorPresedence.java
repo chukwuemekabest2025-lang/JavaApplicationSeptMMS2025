@@ -1,9 +1,9 @@
 public class OperatorPresedence{
 	public static void main(String[] args){
-		//Opertor Precedence - These are rules applied when dealing with hybrid equations 
-		//that involve more than one type of operator. In such cases, these rules determine which
-		//part of the equation to consider first, as there can be many different valuations for
-		//the same equation.
+		/*Opertor Precedence - These are rules applied when dealing with hybrid equations 
+		that involve more than one type of operator. In such cases, these rules determine which
+		part of the equation to consider first, as there can be many different valuations for
+		the same equation.*/
 		
 		//2x2*2y-(2x2+3y)*2x2
 		
