@@ -23,13 +23,13 @@ public class NumberLogic{
             int num6 = scanner.nextInt();
 			int product = num4 * num5 * num6;
             if (product > 200) {
-                System.out.println("hurray");
+                System.out.println("Hurray");
             } else {
-                System.out.println("ongoing");
+                System.out.println("Ongoing");
             }
             
         } else {
-            System.out.println("i must solve this program on my own");
+            System.out.println("I must solve this program on my own");
         }
 
         scanner.close();
