@@ -63,5 +63,8 @@ public class OperatorPart1{
 		System.out.printf("Is %d == %d: %b%n",number1,number2,IsEqualTo);
 		System.out.printf("Is %d != %d: %b%n",number1,number2,IsNotEqualTo);
 		
+		
+		
+		
 	}
 }

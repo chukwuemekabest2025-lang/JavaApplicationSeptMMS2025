@@ -9,7 +9,6 @@ public class NumberCalculation{
         for (int i = 0; i < 10; i++) {
             num[i] = input.nextInt();
         }
-
         int sum1 = num[0] + num[4] + num[9];
         int sum2 = num[2] + num[7] + num[1];
         int product = sum1 * sum2;

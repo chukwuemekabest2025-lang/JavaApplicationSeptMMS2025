@@ -15,7 +15,7 @@ public class AcceptDay{
 			System.out.println("Monday");
 		}
 		else if(day == 2){
-			System.out.println("Tuesday");
+			System.out.println("Tuesday");he
 		}
 		else if(day == 3){
 			System.out.println("Wednesday");

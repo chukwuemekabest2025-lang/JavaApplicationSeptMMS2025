@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class ClassWork3{
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
-//Write a java program to accept name, age and address and format the data you have received to give a meaningful message on the screen e.g Hello jack, you are ... years old
+/*Write a java program to accept name, age and address and format the data you have received to give a 
+meaningful message on the screen e.g Hello jack, you are ... years old*/
 		System.out.print("Enter your name: ");
 		String name = input.nextLine();
 		
