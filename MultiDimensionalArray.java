@@ -1,9 +1,9 @@
 public class MultiDimensionalArray{
 	public static void main(String[] args){
 		int[][] numbers = {
-			{7,8,9,6,4},
-			{12,40,50,2,1},
-			{25, 63, 223, 22,34}
+			{17,34,43,52,12},
+			{13,55,12,67,34},
+			{97,52,23,10,30}
 		};
 		
 		System.out.println("The elements of the array are:");
