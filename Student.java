@@ -13,15 +13,15 @@ public class Student{
 	}
 	
 	public void eat(){
-		System.out.print("I am eating");
+		System.out.println("I am eating");
 	}
 	
 	public void sleep(){
-		System.out.print("I am sleeping");
+		System.out.println("I am sleeping");
 	}
 	
 	public void sing(){
-		System.out.print("I am singing");
+		System.out.println("I am singing");
 	}	
 	
 	public void displayStudentInfo(){
