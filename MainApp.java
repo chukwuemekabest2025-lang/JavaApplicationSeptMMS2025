@@ -1,3 +1,6 @@
+/*Encapsulation is one of the fundamental concepts in object-oriented programming (OOOP) and it's essential for maintaining the integrity
+of data and ensuring that the internal workings of an object are hidden from the outside world.*/
+
 public class MainApp{
 	public static void main(String[] args){
 		Student student1 = new Student(1,"John","Willy",'M');
