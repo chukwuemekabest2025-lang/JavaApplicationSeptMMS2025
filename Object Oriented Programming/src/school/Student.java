@@ -71,6 +71,28 @@ public class Student {
         this.phoneNumber = phoneNumber;
     }
     
+    public void payFees(double amount){
+        System.out.println("Amount paid " + amount);
+    }
+    
+    public void payFees(double amount, String fullName){
+        System.out.println("Amount Paid " + amount);
+        System.out.println("Student Full Name " + fullName);
+    }
+
+    public void payFees(double amount, String fullName, String paymentMethod){
+        System.out.println("Amount Paid " + amount);
+        System.out.println("Student Full Name " + fullName);
+        System.out.println("Payment Method " + paymentMethod);
+    }
+    
+    public void displayStudentInfo(){
+        System.out.println("StudentID: "+ studentID);
+        System.out.println("Full Name: "+ firstName + " " + lastName);
+        System.out.println("Gender: "+ gender);
+        System.out.println("Date Of Birth: "+ dOB);
+        System.out.println("Phone Number: "+ phoneNumber);
+    }
     
     
     
