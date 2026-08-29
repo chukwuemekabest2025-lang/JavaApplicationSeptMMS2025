@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 
 public class Patient extends Person {
-    private String patientId;
+    private int patientId;
     private String bloodGroup;
     private String genotype;
     private String allergies;
@@ -16,7 +16,7 @@ public class Patient extends Person {
         
     }
 
-    public Patient(String patientId, String bloodGroup, 
+    public Patient(int patientId, String bloodGroup, 
             String genotype, String allergies, 
             String emergencyContact, String emergencyPhone, 
             String firstName, String lastName, char gender, 
@@ -32,7 +32,7 @@ public class Patient extends Person {
         this.emergencyPhone = emergencyPhone;
     }
 
-    public String getPatientId() {
+    public int getPatientId() {
         return patientId;
     }
 
@@ -74,6 +74,11 @@ public class Patient extends Person {
 
     public void setEmergencyPhone(String emergencyPhone) {
         this.emergencyPhone = emergencyPhone;
+    }
+
+    public void setPatientId(int patientId/*aInt*/) {
+       this.patientId = patientId;
+// throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
     

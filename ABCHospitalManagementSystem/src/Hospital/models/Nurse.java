@@ -14,7 +14,8 @@ public class Nurse extends Staff {
     }
 
     public Nurse(String firstName, String lastName, 
-            char gender, LocalDate dateOfBirth, String phone, String email, String street, 
+            char gender, LocalDate dateOfBirth, String phone, String email, 
+            String street, 
             String city, String country, 
             String staffId, 
             LocalDate employmentDate, double salary, Department department,
