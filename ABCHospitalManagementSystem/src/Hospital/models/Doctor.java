@@ -1,37 +1,37 @@
-
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 
 
 public class Doctor extends Staff{
     private String specialization;
-    private String licenceNumber;
-
+    private String licenseNumber;
+   
     
     public Doctor(){
         
     }
 
-    public Doctor(String firstName, 
+    public Doctor(String firstName,
             String lastName, char gender, 
-            LocalDate dateOfBirth, String phone, 
+            LocalDate dateOfBirth, String phone,
             String email, String street, 
-            String city, String country,  String staffId, 
-            LocalDate employmentDate, 
-            double salary, Department department, 
-            String specialization, 
-            String licenceNumber 
-            ) {
+            String city, String country,int staffId,
+            LocalDate employmentDate,
+            double salary,Department department,
+            String specialization,
+            String licenseNumber
+             ) {
         
         super(
                 firstName, lastName, gender, 
                 dateOfBirth, phone, email, 
-                street, city, country, staffId, 
-                employmentDate, salary, department);
+                street, city, country, staffId,
+                employmentDate, salary,department );
         
         this.specialization = specialization;
-        this.licenceNumber = licenceNumber;
+        this.licenseNumber = licenseNumber;
+       
     }
 
     public String getSpecialization() {
@@ -42,14 +42,12 @@ public class Doctor extends Staff{
         this.specialization = specialization;
     }
 
-    public String getLicenceNumber() {
-        return licenceNumber;
+    public String getLicenseNumber() {
+        return licenseNumber;
     }
 
-    public void setLicenceNumber(String licenceNumber) {
-        this.licenceNumber = licenceNumber;
-      
+    public void setLicenseNumber(String licenseNumber) {
+        this.licenseNumber = licenseNumber;
     }
-    
-    
+
 }

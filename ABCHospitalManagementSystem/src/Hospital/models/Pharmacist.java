@@ -1,19 +1,24 @@
-
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 
 
 public class Pharmacist extends Staff{
+    private int pharmacistId;
     private String qualification;
     private String licenseNumber;
+    
+    
+    public Pharmacist() {
+        
+    }
     
     public Pharmacist( 
             String firstName, String lastName, 
             char gender, LocalDate dateOfBirth, 
             String phone, String email, 
             String street, String city, 
-            String country, String staffId, 
+            String country, int staffId, 
             LocalDate employmentDate, 
             double salary, Department department,
             String qualification, String licenseNumber) {
@@ -26,6 +31,14 @@ public class Pharmacist extends Staff{
         
         this.qualification = qualification;
         this.licenseNumber = licenseNumber;
+    }
+
+    public int getPharmacistId() {
+        return pharmacistId;
+    }
+
+    public void setPharmacistId(int pharmacistId) {
+        this.pharmacistId = pharmacistId;
     }
 
     public String getQualification() {

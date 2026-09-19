@@ -1,8 +1,6 @@
-
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
-
 
 public class Payment {
     private int id;
@@ -17,6 +15,10 @@ public class Payment {
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Invoice getInvoice() {
@@ -50,6 +52,4 @@ public class Payment {
     public void setPaymentMethod(String paymentMethod) {
         this.paymentMethod = paymentMethod;
     }
-    
-    
 }

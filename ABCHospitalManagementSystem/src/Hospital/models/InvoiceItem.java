@@ -1,21 +1,23 @@
-
-package Hospital.models;
-
+package hospital.models;
 
 public class InvoiceItem {
- private int id;
- private Invoice invoice;
- private String description;
- private int quantity;
- private double unitPrice;
- private double amount;
+    private int id;
+    private Invoice invoice;
+    private String description;
+    private int quantity;
+    private double unitPrice;
+    private double amount;
  
- public InvoiceItem() {
+    public InvoiceItem() {
      
- }
+    }
 
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Invoice getInvoice() {
@@ -63,5 +65,4 @@ public class InvoiceItem {
     private void calculateAmount() {
         this.amount = quantity * unitPrice;
     }
-    
 }

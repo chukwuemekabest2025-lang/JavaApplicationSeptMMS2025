@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -30,6 +30,9 @@ public class Prescription {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
     public Patient getPatient() {
         return patient;
     }

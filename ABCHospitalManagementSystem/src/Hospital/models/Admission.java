@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,7 +22,11 @@ public class Admission {
     public int getId() {
         return id;
     }
-
+    
+    public void setId(int id) {
+    this.id = id;
+    }
+    
     public Patient getPatient() {
         return patient;
     }

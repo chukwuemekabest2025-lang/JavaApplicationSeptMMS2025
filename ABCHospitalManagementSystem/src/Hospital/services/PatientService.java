@@ -1,7 +1,7 @@
-package Hospital.services;
+package hospital.services;
 
-import Hospital.dao.PatientDAO;
-import Hospital.models.Patient;
+import hospital.dao.PatientDAO;
+import hospital.models.Patient;
 
 import java.util.List;
 

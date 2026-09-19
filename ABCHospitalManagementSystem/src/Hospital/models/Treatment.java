@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 

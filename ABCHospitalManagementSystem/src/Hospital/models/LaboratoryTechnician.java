@@ -1,6 +1,8 @@
 
-package Hospital.models;
+package hospital.models;
 
+import hospital.models.Department;
+import hospital.models.Staff;
 import java.time.LocalDate;
 
 
@@ -17,7 +19,7 @@ public class LaboratoryTechnician extends Staff{
             char gender, LocalDate dateOfBirth, 
             String phone, String email, 
             String street, String city, 
-            String country, String staffId, 
+            String country, int staffId, 
             LocalDate employmentDate, 
             double salary, Department department,
             String qualification, String licenseNumber) {

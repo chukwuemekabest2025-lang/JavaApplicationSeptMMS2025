@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDateTime;
 
@@ -16,7 +16,11 @@ public class Appointment {
     public int getId() {
         return id;
     }
-
+    
+    public void setId(int id) {
+        this.id =id;
+    }
+    
     public Patient getPatient() {
         return patient;
     }

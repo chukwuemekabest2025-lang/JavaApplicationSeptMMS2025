@@ -1,7 +1,7 @@
-package Hospital.dao;
+package hospital.dao;
 
-import Hospital.database.DatabaseConnection;
-import Hospital.models.Patient;
+import hospital.database.DatabaseConnection;
+import hospital.models.Patient;
 
 import java.sql.*;
 import java.util.ArrayList;

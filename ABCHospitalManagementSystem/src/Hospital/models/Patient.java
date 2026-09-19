@@ -1,5 +1,5 @@
-
-package Hospital.models;
+ 
+package hospital.models;
 
 import java.time.LocalDate;
 
@@ -77,7 +77,7 @@ public class Patient extends Person {
     }
 
     public void setPatientId(int patientId/*aInt*/) {
-       this.patientId = patientId;
+        this.patientId = patientId;
 // throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDate;
 
@@ -17,7 +17,7 @@ public class Nurse extends Staff {
             char gender, LocalDate dateOfBirth, String phone, String email, 
             String street, 
             String city, String country, 
-            String staffId, 
+            int staffId, 
             LocalDate employmentDate, double salary, Department department,
             String nursingLicense, String qualification
             ) {

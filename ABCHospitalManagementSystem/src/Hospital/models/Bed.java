@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 
 public class Bed {
@@ -15,6 +15,10 @@ public class Bed {
     public int getId() {
         return id;
     }
+    
+     public void setId(int id) {
+        this.id = id;
+    }   
 
     public String getBedNumber() {
         return bedNumber;

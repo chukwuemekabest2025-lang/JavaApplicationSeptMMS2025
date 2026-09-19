@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 
 public enum StaffRole {

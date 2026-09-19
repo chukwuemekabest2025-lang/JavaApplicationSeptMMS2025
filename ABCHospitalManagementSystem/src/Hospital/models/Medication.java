@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 
 public class Medication {
@@ -18,6 +18,9 @@ public class Medication {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
     public String getName() {
         return name;
     }

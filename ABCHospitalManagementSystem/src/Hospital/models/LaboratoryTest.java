@@ -1,5 +1,5 @@
 
-package Hospital.models;
+package hospital.models;
 
 import java.time.LocalDateTime;
 
@@ -22,6 +22,10 @@ public class LaboratoryTest {
         return id;
     }
 
+    public void setId(int id){
+        this.id = id;
+    }
+    
     public Patient getPatient() {
         return patient;
     }
